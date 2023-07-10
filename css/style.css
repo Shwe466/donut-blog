@@ -18,6 +18,10 @@
 
 /* ↓↓↓ nav section start ↓↓↓ */
 
+body {
+  position: relative;
+}
+
 nav {
   background: var(--main-color);
   width: 100%;
