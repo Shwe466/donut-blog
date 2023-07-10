@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Queries : Desktop First</title>
+  <style>
+    p {
+      font-size: 4rem;
+    }
+
+    @media (max-width:992px) {
+      body {
+        background: lightcoral;
+      }
+
+      p {
+        font-size: 3rem;
+      }
+    }
+
+    @media (max-width:768px) {
+      body {
+        background: lightgreen;
+      }
+
+      p {
+        font-size: 2rem;
+      }
+    }
+
+    @media (max-width:576px) {
+      body {
+        background: lightseagreen;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, non!</p>
+</body>
+
+</html>
